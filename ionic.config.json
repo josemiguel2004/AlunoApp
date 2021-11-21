@@ -1,0 +1,7 @@
+{
+  "name": "AlunoApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
