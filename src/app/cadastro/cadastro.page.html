@@ -1,6 +1,6 @@
 <ion-header>
-  <ion-toolbar color="success">
-    <ion-title>cadastro</ion-title>
+  <ion-toolbar color="medium">
+    <ion-title>Cadastro</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -33,13 +33,13 @@
   </ion-item>
 
   <ion-item >
-    <ion-label position="floating" class="ion-text-wrap">Data de Nascimento:</ion-label>
-    <ion-input  [(ngModel)]="usuario.dataNascimento" ></ion-input>
+    <ion-label position="stacked" class="ion-text-wrap">Data de Nascimento:</ion-label>
+    <ion-input type="date" [(ngModel)]="usuario.dataNascimento" ></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label position="floating" class="ion-text-wrap">E-mail:</ion-label>
-    <ion-input [(ngModel)]="usuario.email" ></ion-input>
+    <ion-input type="email" [(ngModel)]="usuario.email" ></ion-input>
   </ion-item>
 
   <ion-item>
